@@ -2,10 +2,11 @@
   "name": "howto_es6",
   "version": "1.0.0",
   "scripts": {
-    "build": "babel src"
+    "build": "babel --presets es2015 -w src -d dist"
   },
   "private": "true",
   "devDependencies": {
-    "babel-cli": "6.5.1"
+    "babel-cli": "6.5.1",
+    "babel-preset-es2015": "6.5.0"
   }
 }
